@@ -1,5 +1,5 @@
 /*
-//  TERMOSTATO AMBIENTALE PER TERMOSIFONI CONTROLLATO VIA INTERNET
+  TERMOSTATO AMBIENTALE PER TERMOSIFONI CONTROLLATO VIA INTERNET
  //  Ho creato questo programma per sfizio e per utilità frutto di lunghe ricerche su internet e spunti presi qui e li.....
  //  Ho utilizzato un Arduino 2009,Ethernet Shield(senza SD),display 16x2 JHD162A(pin retroilluminazione collegato al pin D8),sensore temperatura LM35,
  //    2 pulsanti per la variazione manuale della temperatura(ovviamente pull-uppati),
@@ -26,9 +26,6 @@
 
 
 //Dati login pagina web
-String user="";          //Modificare per nome utente          <--------------------------------------------------------------
-String pass="";             //Modificare per password          <--------------------------------------------------------------
-long timeout=30000;               //Timeout sessione Web in millisecondi
 
 
 #define loctempsetint  0          //ID locazione EEPROM numero temperatura impostata intero
@@ -55,8 +52,8 @@ long timeout=30000;               //Timeout sessione Web in millisecondi
 #define btnLEFT   3
 #define btnSELECT 4
 #define btnNONE   5
+int TERMOSIFONI;
 
-long loginstart;                  //Variabile buffer millis per sessione Web
 
 long backlightstart;              //Variabile buffer millis per retroillumizione display
 
@@ -101,7 +98,7 @@ Serial.begin(9600);
   // Cancella lcd
   lcd.clear();
 
-  stringalogin=String("Nome="+user+"&Pwd="+pass);    //Formazione stringa di confronto login!
+  //stringalogin=String("Nome="+user+"&Pwd="+pass);    //Formazione stringa di confronto login!
 
   //  digitalWrite(pinleddisp, 1);                       //Attiva la retrolluminazione
 
