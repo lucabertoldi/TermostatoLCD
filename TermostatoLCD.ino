@@ -1,5 +1,5 @@
 /*
-
+OK!!
  Fonti:
  Sono diverse,sicuramente http://www.giannifavilli.it/blog/ è stato uno dei punti di partenza per la parte web;
  le altre non le ricordo(non mene vogliano gli autori)!!!!!!!
