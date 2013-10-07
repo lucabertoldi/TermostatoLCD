@@ -1,12 +1,5 @@
 /*
-  TERMOSTATO AMBIENTALE PER TERMOSIFONI CONTROLLATO VIA INTERNET
- //  Ho creato questo programma per sfizio e per utilità frutto di lunghe ricerche su internet e spunti presi qui e li.....
- //  Ho utilizzato un Arduino 2009,Ethernet Shield(senza SD),display 16x2 JHD162A(pin retroilluminazione collegato al pin D8),sensore temperatura LM35,
- //    2 pulsanti per la variazione manuale della temperatura(ovviamente pull-uppati),
- //    1 relè contatto pulito accensione pompa termosifoni(debitamente pilotato).
- 
- Critiche e consigli sono bene accetti visti i difetti che avrà il mio programma...... :-(
- 
+
  Fonti:
  Sono diverse,sicuramente http://www.giannifavilli.it/blog/ è stato uno dei punti di partenza per la parte web;
  le altre non le ricordo(non mene vogliano gli autori)!!!!!!!
